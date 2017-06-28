@@ -1,0 +1,6 @@
+framework module Pods_HaocaiResource_Tests {
+  umbrella header "Pods-HaocaiResource_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

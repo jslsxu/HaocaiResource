@@ -1,0 +1,16 @@
+PODS:
+  - HaocaiResource (0.1.0)
+
+DEPENDENCIES:
+  - HaocaiResource (from `../`)
+
+EXTERNAL SOURCES:
+  HaocaiResource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HaocaiResource: 5e4a2dfcee79a17d94ce085a5ff0a073225120de
+
+PODFILE CHECKSUM: 1558356e73a9636ed83bbf4658beeb0ba1f46d80
+
+COCOAPODS: 1.2.1

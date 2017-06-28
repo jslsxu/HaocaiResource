@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27939AB8A860916D399E4120170B90AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3702DCE01F03944E0082ECAD /* Mediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DCDE1F03944E0082ECAD /* Mediator.h */; };
+		3702DCE11F03944E0082ECAD /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DCDF1F03944E0082ECAD /* Mediator.m */; };
+		3702DCE41F0395EF0082ECAD /* MediatorVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DCE21F0395EF0082ECAD /* MediatorVC.h */; };
+		3702DCE51F0395EF0082ECAD /* MediatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DCE31F0395EF0082ECAD /* MediatorVC.m */; };
+		6B399CDE78CBA27951550A783EC04797 /* Pods-HaocaiResource_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69114A5D8069294017BA36355B6BA36 /* Pods-HaocaiResource_Tests-dummy.m */; };
+		AC59E3B4EDCBE021C3CFBDE2FB4E04CF /* HaocaiResource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B047D7D4E6A160FC911DA6FDE6FBDF08 /* HaocaiResource-dummy.m */; };
+		B417BB5CE9EED5948EFCCD161B0CC030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E65F5A90AC3EEC36CB492C8025938940 /* HaocaiResource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A1279D343FD455702467E0DD00216 /* HaocaiResource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86CC45F3343889EBF2BDC6FE62BB9A3 /* Pods-HaocaiResource_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91A987CD45B8AE6A3C6E43D96ED9BE4 /* Pods-HaocaiResource_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D421061D20EB6DDD3802C5EA18DCA645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E5AD7795FF64D564F26F2F2A40E526D;
+			remoteInfo = HaocaiResource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21189FD310A038DFD47E5D43A81AED33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BB4E8602A2DBC3E722CF98A596682C /* HaocaiResource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaocaiResource-prefix.pch"; sourceTree = "<group>"; };
+		3702DCDE1F03944E0082ECAD /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		3702DCDF1F03944E0082ECAD /* Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		3702DCE21F0395EF0082ECAD /* MediatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorVC.h; sourceTree = "<group>"; };
+		3702DCE31F0395EF0082ECAD /* MediatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorVC.m; sourceTree = "<group>"; };
+		3F9B9FA1257378C430D3EEC4B16F21F7 /* Pods-HaocaiResource_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaocaiResource_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4611F5DC9332BAB4FD0133BD7CF53B05 /* Pods-HaocaiResource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaocaiResource_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C6251E747B2EC50911D7F553931D3AB /* Pods_HaocaiResource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaocaiResource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		649C9F32C518F6D4E3C3BF915D6538FF /* Pods-HaocaiResource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaocaiResource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		722539ECF8645FAC7B94D014549767CB /* HaocaiResource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaocaiResource.modulemap; sourceTree = "<group>"; };
+		7FA627F13F66B6454491CBA0E6FC6A1C /* Pods-HaocaiResource_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaocaiResource_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968294C3FF0B6DD25E91B1D7A012A80B /* Pods-HaocaiResource_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaocaiResource_Tests.modulemap"; sourceTree = "<group>"; };
+		A44C0CEE48B7E120DDA7868A14794F5F /* Pods-HaocaiResource_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaocaiResource_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A69114A5D8069294017BA36355B6BA36 /* Pods-HaocaiResource_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaocaiResource_Tests-dummy.m"; sourceTree = "<group>"; };
+		AA3A1279D343FD455702467E0DD00216 /* HaocaiResource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaocaiResource-umbrella.h"; sourceTree = "<group>"; };
+		B047D7D4E6A160FC911DA6FDE6FBDF08 /* HaocaiResource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaocaiResource-dummy.m"; sourceTree = "<group>"; };
+		C03A87F62613C65A93937023C17A792A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91A987CD45B8AE6A3C6E43D96ED9BE4 /* Pods-HaocaiResource_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaocaiResource_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F0A07359B46F188A515D6321645B652D /* HaocaiResource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaocaiResource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92986DCECA7D2EAE96DFCED0C06EB70 /* Pods-HaocaiResource_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaocaiResource_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB99C2C6230E0365218989BA7F588C7E /* HaocaiResource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaocaiResource.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242F7A35CD9FA5DA130AA18A2A694A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27939AB8A860916D399E4120170B90AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F483AFC1939FFC4CF9F51347FD4811EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B417BB5CE9EED5948EFCCD161B0CC030 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA49FD9926130853046F24EDEDAE6A9 /* HaocaiResource */ = {
+			isa = PBXGroup;
+			children = (
+				3D1CF32B01BF14150D1817BD974834E8 /* Classes */,
+			);
+			path = HaocaiResource;
+			sourceTree = "<group>";
+		};
+		3D1CF32B01BF14150D1817BD974834E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3702DCDE1F03944E0082ECAD /* Mediator.h */,
+				3702DCDF1F03944E0082ECAD /* Mediator.m */,
+				3702DCE21F0395EF0082ECAD /* MediatorVC.h */,
+				3702DCE31F0395EF0082ECAD /* MediatorVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		59FC57B139D5B06E4ED817051AB7091D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				833964663B2C2ECC135EE889BE179B65 /* Pods-HaocaiResource_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C3B4785F8F251508871B84F0711DDD1 /* HaocaiResource */ = {
+			isa = PBXGroup;
+			children = (
+				1CA49FD9926130853046F24EDEDAE6A9 /* HaocaiResource */,
+				D6192AE68791FA9FBCA5E3E25D12F7E7 /* Support Files */,
+			);
+			name = HaocaiResource;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B67EDF6F0BAC5624D93728D5B3B8413E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A66409140BFFC38820D6950AD117F034 /* Products */,
+				59FC57B139D5B06E4ED817051AB7091D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		833964663B2C2ECC135EE889BE179B65 /* Pods-HaocaiResource_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21189FD310A038DFD47E5D43A81AED33 /* Info.plist */,
+				968294C3FF0B6DD25E91B1D7A012A80B /* Pods-HaocaiResource_Tests.modulemap */,
+				A44C0CEE48B7E120DDA7868A14794F5F /* Pods-HaocaiResource_Tests-acknowledgements.markdown */,
+				F92986DCECA7D2EAE96DFCED0C06EB70 /* Pods-HaocaiResource_Tests-acknowledgements.plist */,
+				A69114A5D8069294017BA36355B6BA36 /* Pods-HaocaiResource_Tests-dummy.m */,
+				3F9B9FA1257378C430D3EEC4B16F21F7 /* Pods-HaocaiResource_Tests-frameworks.sh */,
+				7FA627F13F66B6454491CBA0E6FC6A1C /* Pods-HaocaiResource_Tests-resources.sh */,
+				E91A987CD45B8AE6A3C6E43D96ED9BE4 /* Pods-HaocaiResource_Tests-umbrella.h */,
+				649C9F32C518F6D4E3C3BF915D6538FF /* Pods-HaocaiResource_Tests.debug.xcconfig */,
+				4611F5DC9332BAB4FD0133BD7CF53B05 /* Pods-HaocaiResource_Tests.release.xcconfig */,
+			);
+			name = "Pods-HaocaiResource_Tests";
+			path = "Target Support Files/Pods-HaocaiResource_Tests";
+			sourceTree = "<group>";
+		};
+		A66409140BFFC38820D6950AD117F034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A07359B46F188A515D6321645B652D /* HaocaiResource.framework */,
+				4C6251E747B2EC50911D7F553931D3AB /* Pods_HaocaiResource_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67EDF6F0BAC5624D93728D5B3B8413E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C3B4785F8F251508871B84F0711DDD1 /* HaocaiResource */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6192AE68791FA9FBCA5E3E25D12F7E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722539ECF8645FAC7B94D014549767CB /* HaocaiResource.modulemap */,
+				FB99C2C6230E0365218989BA7F588C7E /* HaocaiResource.xcconfig */,
+				B047D7D4E6A160FC911DA6FDE6FBDF08 /* HaocaiResource-dummy.m */,
+				23BB4E8602A2DBC3E722CF98A596682C /* HaocaiResource-prefix.pch */,
+				AA3A1279D343FD455702467E0DD00216 /* HaocaiResource-umbrella.h */,
+				C03A87F62613C65A93937023C17A792A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HaocaiResource";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CFDB94FCA6955087C4DC0436868690 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65F5A90AC3EEC36CB492C8025938940 /* HaocaiResource-umbrella.h in Headers */,
+				3702DCE01F03944E0082ECAD /* Mediator.h in Headers */,
+				3702DCE41F0395EF0082ECAD /* MediatorVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E484CB600022B4616D9F95913EF4E296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86CC45F3343889EBF2BDC6FE62BB9A3 /* Pods-HaocaiResource_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E5AD7795FF64D564F26F2F2A40E526D /* HaocaiResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B0096DC97D663971CBB616BF6B82F8 /* Build configuration list for PBXNativeTarget "HaocaiResource" */;
+			buildPhases = (
+				8B8258441C5C6A29C396F2E96C709887 /* Sources */,
+				242F7A35CD9FA5DA130AA18A2A694A51 /* Frameworks */,
+				13CFDB94FCA6955087C4DC0436868690 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaocaiResource;
+			productName = HaocaiResource;
+			productReference = F0A07359B46F188A515D6321645B652D /* HaocaiResource.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		846A22E4B135271B84010D9A51E703E3 /* Pods-HaocaiResource_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154B61CAEC3C642543C4EEB91A37334 /* Build configuration list for PBXNativeTarget "Pods-HaocaiResource_Tests" */;
+			buildPhases = (
+				98DC99DB28B5316536DA259C897B564E /* Sources */,
+				F483AFC1939FFC4CF9F51347FD4811EF /* Frameworks */,
+				E484CB600022B4616D9F95913EF4E296 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969C02A5CE7090D83F50765927A8B208 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaocaiResource_Tests";
+			productName = "Pods-HaocaiResource_Tests";
+			productReference = 4C6251E747B2EC50911D7F553931D3AB /* Pods_HaocaiResource_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A66409140BFFC38820D6950AD117F034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E5AD7795FF64D564F26F2F2A40E526D /* HaocaiResource */,
+				846A22E4B135271B84010D9A51E703E3 /* Pods-HaocaiResource_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8258441C5C6A29C396F2E96C709887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3702DCE51F0395EF0082ECAD /* MediatorVC.m in Sources */,
+				3702DCE11F03944E0082ECAD /* Mediator.m in Sources */,
+				AC59E3B4EDCBE021C3CFBDE2FB4E04CF /* HaocaiResource-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC99DB28B5316536DA259C897B564E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B399CDE78CBA27951550A783EC04797 /* Pods-HaocaiResource_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969C02A5CE7090D83F50765927A8B208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaocaiResource;
+			target = 3E5AD7795FF64D564F26F2F2A40E526D /* HaocaiResource */;
+			targetProxy = D421061D20EB6DDD3802C5EA18DCA645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5730F2ACB2B05733582DF5824AD90C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB99C2C6230E0365218989BA7F588C7E /* HaocaiResource.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaocaiResource/HaocaiResource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaocaiResource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaocaiResource/HaocaiResource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaocaiResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		611B4D99E02645DE4D07176C4699AA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4611F5DC9332BAB4FD0133BD7CF53B05 /* Pods-HaocaiResource_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaocaiResource_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaocaiResource_Tests/Pods-HaocaiResource_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaocaiResource_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73D2F7C930444DCE6ACDEB31C7BC403A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649C9F32C518F6D4E3C3BF915D6538FF /* Pods-HaocaiResource_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaocaiResource_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaocaiResource_Tests/Pods-HaocaiResource_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaocaiResource_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99C11CF4BDBC764C44AE83F79242BA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB99C2C6230E0365218989BA7F588C7E /* HaocaiResource.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaocaiResource/HaocaiResource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaocaiResource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaocaiResource/HaocaiResource.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaocaiResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0154B61CAEC3C642543C4EEB91A37334 /* Build configuration list for PBXNativeTarget "Pods-HaocaiResource_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D2F7C930444DCE6ACDEB31C7BC403A /* Debug */,
+				611B4D99E02645DE4D07176C4699AA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B0096DC97D663971CBB616BF6B82F8 /* Build configuration list for PBXNativeTarget "HaocaiResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5730F2ACB2B05733582DF5824AD90C96 /* Debug */,
+				99C11CF4BDBC764C44AE83F79242BA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "HaocaiResource",
+  "version": "0.1.0",
+  "summary": "A short description of HaocaiResource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jslsxu@163.com/HaocaiResource",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jslsxu@163.com": "jslsxu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jslsxu@163.com/HaocaiResource.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HaocaiResource/Classes/**/*"
+}
